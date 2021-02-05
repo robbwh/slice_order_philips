@@ -8,4 +8,4 @@ To run:
 
 Because of rounding issues, you may need to touch up the ordering by hand.
 
-This is a python3 implementation of  http://www.onerussian.com/tmp/philips_order.py with a few changes (using datetime to process the times in the file and not relying on the first timepoint (which seems less interpretable than others))
+This is a python3 implementation of Yaroslav Halchenko's http://www.onerussian.com/tmp/philips_order.py with a few changes (using datetime to process the times in the file and not relying on the first timepoint (which seems less interpretable than others))
