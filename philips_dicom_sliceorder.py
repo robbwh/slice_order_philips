@@ -78,7 +78,7 @@ timesOut.reset_index(drop=True,inplace=True)
 
 median_times = timesOut.median()
 
-print("Slice Times:")
+print("Slice Times (note, these times are inaccurate but might give proper ordering):")
 print(median_times)
 
 order_out = rankdata(median_times, method='min') - 1
